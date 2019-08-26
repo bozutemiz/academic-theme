@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 0
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -36,7 +36,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 4
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -52,7 +52,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
+  # image = "featured.png"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
@@ -64,8 +64,10 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+ 
+ #{{% alert note %}}
+#Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
+#{{% /alert %}}
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+
